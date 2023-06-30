@@ -1,11 +1,11 @@
 import turtle
 
 drawing_board=turtle.Screen()
-drawing_board.title("Drawing Board")
-drawing_board.bgcolor("light blue")
+drawing_board.title(input("enter the board title: "))
+drawing_board.bgcolor(input("enter the board color: "))
 
 turtle_instance=turtle.Turtle()
-
+turtle_instance.color(input("enter the pen color: "))
 def turtle_forward():
     turtle_instance.forward(20)
 def turtle_rotate_right():
