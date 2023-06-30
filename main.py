@@ -6,7 +6,7 @@ drawing_board.bgcolor(input("enter the board color: "))
 
 turtle_instance=turtle.Turtle()
 turtle_instance.color(input("enter the pen color: "))
-turtle_instance.pensize(input("enter the pen size: "))
+turtle_instance.pensize(int(input("enter the pen size: ")))
 def turtle_forward():
     turtle_instance.forward(20)
 def turtle_rotate_right():
